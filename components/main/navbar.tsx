@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { LINKS, NAV_LINKS, SOCIALS } from "@/constants";
+import { NAV_LINKS, SOCIALS } from "@/constants";
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -77,7 +77,7 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-            <Link
+            {/* <Link
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
@@ -85,7 +85,7 @@ export const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Source Code
-            </Link>
+            </Link> */}
           </div>
 
           {/* Social Icons */}
