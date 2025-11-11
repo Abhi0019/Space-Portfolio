@@ -151,7 +151,7 @@ export const secondrow = [
   },
   {
     skill_name: "EsLint",
-    image: "eslint.png",
+    image: "esLint.png",
     width: 80,
     height: 80,
   },
@@ -207,30 +207,30 @@ export const secondrow = [
 ] as const;
 
 
-
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Summise – Modern GPT-4 Article Summarizer",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'Discover the power of AI with "Summise" – a modern GPT-4 Article Summarizer that transforms lengthy articles into concise insights within seconds. Featuring a futuristic UI built with React, Vite, and Tailwind CSS, it redefines the way you consume information with speed, clarity, and style.',
     image: "/projects/project-1.png",
-    link: "https://github.com/Abhi0019/Space-Portfolio",
+    link: "https://ai-summarizer-ashen.vercel.app/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Bachpan Vidyalay ( Patan, Gujarat ) Website",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://github.com/Abhi0019/Space-Portfolio",
+      'Experience the vibrant digital identity of "Bachpan Vidyalay" – a modern, responsive school website crafted with Next.js and Tailwind CSS. Showcasing academics, campus life, and admissions through multilingual support and elegant design, it captures the spirit of joyful learning in Patan, Gujarat.',
+    image: "/projects/project-4.png",
+    link: "https://bachpan-vidyalaya-nine.vercel.app/",
   },
   {
-    title: "Space Themed Website",
+    title: "Space Themed Portfolio Website",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'Embark on an interstellar journey with my "Space Themed Portfolio Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
     image: "/projects/project-3.png",
     link: "https://github.com/Abhi0019/Space-Portfolio",
   },
 ] as const;
+
 
 export const FOOTER_DATA = [
   {
